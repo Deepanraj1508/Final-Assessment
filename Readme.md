@@ -14,7 +14,7 @@ deleted, the destinations for that account should also be deleted.
 
 3. Create a URL to get destinations available for the account when the account id is given
 as input.
-4. Create an API for receiving the data.
+### 4.Create an API for receiving the data.
 
 a. The API path is /server/incoming_data. The data should be received through
 the post method in the JSON format only.
@@ -35,6 +35,7 @@ and send the data to its destinations.
 
 ### Step 1
 Create virual environment
+
     python -m venv env
 
 ### Step 2
