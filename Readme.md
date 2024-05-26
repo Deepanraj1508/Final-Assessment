@@ -9,7 +9,7 @@
     a. CRED operations for an Account
     b. CRED operations for Destinations.
 ### Note: 
-    An account can have multiple destinations. For example, if an account is
+An account can have multiple destinations. For example, if an account is
 deleted, the destinations for that account should also be deleted.
 
 3. Create a URL to get destinations available for the account when the account id is given
