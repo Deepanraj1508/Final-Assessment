@@ -18,11 +18,15 @@ as input.
 
 a. The API path is /server/incoming_data. The data should be received through
 the post method in the JSON format only.
+
 b. The app secret token should be received while receiving the data.
+
 c. If the HTTP method is GET and the data is not JSON while receiving the data,
 send a response as “Invalid Data” in JSON format
+
 d. If the secret key is not received then send a response as “Un Authenticate” in
 JSON format.
+
 e. After receiving the valid data, using the app secret token, identify the account
 and send the data to its destinations.
 
