@@ -1,4 +1,7 @@
 from django.db import models
+from django.core.exceptions import ValidationError
+from .models import Account
+import json
 import uuid
 import random
 import string
@@ -23,10 +26,7 @@ class Account(models.Model):
     def _generate_app_secret_token(self):
         return generate_random_string(length=20) 
 
-from django.db import models
-from django.core.exceptions import ValidationError
-from .models import Account
-import json
+
 
 class Destination(models.Model):
     account = models.ForeignKey(Account, related_name='destinations', on_delete=models.CASCADE)

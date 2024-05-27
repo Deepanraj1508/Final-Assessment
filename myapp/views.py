@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from requests.exceptions import RequestException
 from rest_framework import status
 import requests
-from requests.exceptions import RequestException, Timeout
+from requests.exceptions import RequestException
 import logging
 
 
